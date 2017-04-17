@@ -1,7 +1,37 @@
-body {
+.raindrop {
   background-image: url("raindropBackground.jpeg");
   color: white;
   opacity: .85;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sidewalk {
+  background-image: url("sidewalkBackground.jpg");
+  color: white;
+  opacity: .85;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sand {
+  background-image: url("sandBackground.jpeg");
+  color: white;
+  opacity: .85;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bluegray {
+  background-image: url("bluegrayBackground.jpg");
+  color: white;
+  opacity: .85;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .icon {
@@ -30,37 +60,23 @@ img.resume:hover {
 }
 
 h1 {
-  font-family: verdana, sans-serif;
-  font-size: 36pt;
-  background-color: gray;
-  max-width: 800px;
-  border: solid 15px black;
-  box-shadow: -15px 15px white;
-  border-radius: 30px;
+  font-size: 750%;
+  font-family: 'Pacifico', sans-serif;
 
 }
 
 h2 {
-  background-color: gray;
-  max-width: 150px;
-  border: solid 5px black;
+  max-width: 200px;
+  border: solid 5px white;
   border-radius: 10px;
   text-align: center;
   font-size: 24pt;
 
 }
 
-.aboutp {
-  background-color: gray;
-  border: solid 5px black;
-  font-size: 16pt;
-}
 
 ul {
-  background-color: gray;
-  border: solid 5px black;
-  max-width: 300px;
-  font-size: 16pt;
+  font-size: 20pt;
 }
 
 .p1 {
@@ -70,6 +86,13 @@ ul {
 .pieceone {
   display: inline-block;
   width: 30%;
+  margin: none;
+  position: relative;
+}
+
+.container h3 {
+  position: absolute;
+  text-align: center;
 }
 
 .p1t {
@@ -86,4 +109,26 @@ ul {
   .pieceone  {
     width: 75%;
   }
+
+/* @media (max -width 850px) {
+ portfolio {
+  font size: 15px;
+ }
 }
+
+*/
+
+}
+
+.shortbio {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 20pt;
+}
+
+.affiliations {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 20pt;
+}
+
+
+/*
